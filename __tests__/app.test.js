@@ -7,4 +7,8 @@ describe('demo routes', () => {
   beforeEach(() => {
     return setup(pool);
   });
+
+  it('sends a tweet', async () => {
+    const res = await 
+  })
 });
